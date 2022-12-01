@@ -1,0 +1,794 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gotham';
+  font-weight: 500;
+}
+
+.menu {
+  position: absolute;
+  background: #8b5b2e;
+  width: 100%;
+  height: 90px;
+}
+
+.menu img {
+  width: 100px;
+  margin-top: 14px;
+  margin-left: 50px;
+}
+
+.menu-l {
+  font-family: 'Gotham';
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+
+  padding-left: 25px;
+  margin-top: -40px;
+  margin-left: 1220px;
+}
+
+.menu-l a {
+  color: white;
+  text-decoration: none;
+
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.menu-l a:hover {
+  color: #ffc630;
+}
+
+.btn {
+  position: absolute;
+  width: 104px;
+  height: 38px;
+  border: none;
+  padding: 8px 19px 8px 19px;
+  border-radius: 13px;
+  color: white;
+  background-color: #ffc630;
+
+  margin-top: -33px;
+  margin-left: 1750px;
+}
+
+.btn a {
+  font-size: 20px;
+  color: white;
+  font-family: 'Gotham Black';
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: #a67907;
+}
+
+.detail {
+  padding: 0;
+  width: 100%;
+}
+
+.detail img {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.detail button {
+  color: white;
+  font-size: 1.2rem;
+  font-family: 'Gotham Black';
+  font-weight: 500;
+  line-height: 27px;
+
+  position: absolute;
+  top: 230px;
+  left: 843px;
+  width: 261px;
+  height: 77px;
+  border: none;
+  border-radius: 15px;
+  background-color: #ffc630;
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.47);
+}
+
+.detail button:hover {
+  background-color: #a67907;
+}
+
+.detail button a {
+  color: white;
+  text-decoration: none;
+}
+
+.reserva h4 {
+  color: white;
+  font-size: 24px;
+  font-family: 'Gotham';
+  font-weight: 500;
+
+  padding-top: 24px;
+  padding-left: 18px;
+}
+
+.reserva h3 {
+  color: white;
+  font-size: 31px;
+  font-family: 'Gotham Black';
+  font-weight: 500;
+
+  padding-bottom: 24px;
+  padding-left: 18px;
+}
+
+#entrada {
+  text-transform: uppercase;
+
+  color: white;
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 181px;
+}
+
+#saida {
+  text-transform: uppercase;
+
+  color: white;
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 374px;
+}
+
+.boxr {
+  position: absolute;
+  margin-top: -55px;
+  margin-left: 407px;
+  background: #ffc630;
+  width: 1133px;
+  height: 100px;
+  border-radius: 15px;
+}
+
+#dateinput {
+  width: 192px;
+  height: 52px;
+  padding: 15px;
+  color: #8c5b2e;
+  border-radius: 5px;
+  border: none;
+
+  margin-left: 181px;
+  margin-top: -80px;
+  font-family: 'Gotham';
+  position: absolute;
+}
+
+#dateinput-s {
+  width: 192px;
+  height: 52px;
+  padding: 15px;
+  color: #8c5b2e;
+  border-radius: 5px;
+  border: none;
+
+  margin-left: 374px;
+  margin-top: -80px;
+  font-family: 'Gotham';
+  position: absolute;
+}
+
+#adult {
+  width: 192px;
+  height: 52px;
+  padding: 15px;
+  color: #8c5b2e;
+  border-radius: 5px;
+  border: none;
+
+  margin-left: 567px;
+  margin-top: -80px;
+  font-family: 'Gotham';
+  position: absolute;
+}
+
+#child {
+  width: 192px;
+  height: 52px;
+  padding: 15px;
+  color: #8c5b2e;
+  border-radius: 5px;
+  border: none;
+
+  margin-left: 760px;
+  margin-top: -80px;
+  font-family: 'Gotham';
+  position: absolute;
+}
+
+#search {
+  width: 151px;
+  height: 52px;
+  border-radius: 5px;
+  font-family: 'Gotham Black';
+  font-weight: 500;
+
+  margin-top: -202px;
+  margin-left: 120px;
+  background-color: #8b5b2e;
+}
+
+#search:hover {
+  background-color: #371e06;
+}
+
+.packs h1 {
+  margin-top: 92px;
+
+  font-family: 'Gotham Black';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 40px;
+
+  text-align: center;
+  color: #ffc630;
+}
+
+.art1 {
+  position: absolute;
+  width: 326px;
+  height: 326px;
+  margin-top: 50px;
+  margin-left: 407px;
+  background: #434343;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+
+.art2 {
+  position: absolute;
+  width: 326px;
+  height: 326px;
+  margin-top: 50px;
+  margin-left: 811px;
+
+  background: #434343;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+
+.art3 {
+  position: absolute;
+  width: 326px;
+  height: 326px;
+  margin-top: 50px;
+  margin-left: 1215px;
+
+  background: #434343;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+
+.boxarts img {
+  border-radius: 20px;
+  transition: transform 0.2s;
+}
+
+.price:hover {
+  transform: scale(1.05);
+}
+
+.price {
+  position: absolute;
+  width: 178px;
+  height: 42px;
+
+  margin-top: -25px;
+  margin-left: 70px;
+  background: #ffc630;
+  border-radius: 8px;
+}
+
+.price a {
+  font-family: 'Gotham Black';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 27px;
+
+  position: absolute;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+
+  padding: 8px 19px 8px 19px;
+}
+
+.atractions {
+  margin-top: 446px;
+
+  background-color: #8b5b2e;
+  width: 100%px;
+  height: 536px;
+}
+
+.atractions h1 {
+  color: white;
+  font-family: 'Gotham Black';
+  font-style: normal;
+  font-weight: 500;
+
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.pool-icon {
+  margin-top: 75px;
+  margin-left: 175px;
+}
+
+.title-pool {
+  position: absolute;
+  width: 190px;
+  left: 121px;
+  margin-top: 16px;
+
+  font-family: 'Gotham Black';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 27px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.title-kids {
+  position: absolute;
+  width: 103px;
+  left: 484px;
+  margin-top: 16px;
+
+  font-family: 'Gotham Black';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 27px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.title-beach {
+  position: absolute;
+  width: 129px;
+  left: 770px;
+  margin-top: 16px;
+
+  font-family: 'Gotham Black';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 27px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.title-sport {
+  position: absolute;
+  width: 144px;
+  margin-left: 1060px;
+  margin-top: 16px;
+
+  font-family: 'Gotham Black';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 27px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.title-swim {
+  position: absolute;
+  width: 144px;
+  margin-left: 1355px;
+  margin-top: 16px;
+
+  font-family: 'Gotham Black';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 27px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.title-fishing {
+  position: absolute;
+  width: 121px;
+  height: 54px;
+  margin-left: 1675px;
+  margin-top: 16px;
+
+  font-family: 'Gotham Black';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 27px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.pool-description {
+  position: absolute;
+  width: 216px;
+  margin-top: 66px;
+  margin-left: 105px;
+
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.pool-description p {
+  padding-top: 16px;
+}
+
+.kids-icon {
+  margin-left: 229px;
+}
+
+.kids-description {
+  position: absolute;
+  width: 216px;
+  margin-top: 66px;
+  margin-left: 430px;
+
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.kids-description p {
+  padding-top: 16px;
+}
+
+.beach-description {
+  position: absolute;
+  width: 216px;
+  margin-top: 66px;
+  margin-left: 730px;
+
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.beach-description p {
+  padding-top: 16px;
+}
+
+.sport-description {
+  position: absolute;
+  width: 216px;
+  margin-top: 66px;
+  margin-left: 1029px;
+
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.sport-description p {
+  padding-top: 16px;
+}
+
+.swim-description {
+  position: absolute;
+  width: 216px;
+  margin-top: 66px;
+  margin-left: 1325px;
+
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.swim-description p {
+  padding-top: 16px;
+}
+
+.fishing-description {
+  position: absolute;
+  width: 216px;
+  margin-top: 66px;
+  margin-left: 1624px;
+
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.fishing-description p {
+  padding-top: 16px;
+}
+
+.beach-icon {
+  margin-left: 205px;
+}
+
+.sport-icon {
+  margin-left: 213px;
+}
+
+.swim-icon {
+  margin-left: 195px;
+}
+
+.fishing-icon {
+  margin-left: 210px;
+}
+
+.gastro {
+  width: 100%;
+  height: 900px;
+}
+
+.gastro h1 {
+  color: #ffc630;
+  font-family: 'Gotham Black';
+  font-style: normal;
+  font-weight: 500;
+
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.gastro-imgs {
+  padding-top: 44px;
+  width: 100%;
+}
+
+.gastro-imgs img {
+  width: 381.7px;
+  margin-left: -5px;
+}
+
+.gastro video {
+  padding-top: 44px;
+  width: 854px;
+  height: 480px;
+  margin-left: 530px;
+}
+
+.newsletter {
+  margin-top: 250px;
+
+  background-color: #ffc630;
+  width: 100%;
+  height: 250px;
+}
+
+.envelope {
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 290px;
+}
+
+.newsletter h4 {
+  width: 260px;
+  padding-top: 90px;
+  margin-left: 400px;
+
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.newsletter h3 {
+  width: 286px;
+  margin-left: 400px;
+
+  font-family: 'Gotham Black';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 28px;
+
+  color: #ffffff;
+}
+
+#nome {
+  width: 312px;
+  height: 52px;
+  padding: 15px;
+  color: #8c5b2e;
+  border-radius: 5px;
+  border: none;
+
+  margin-left: 285px;
+  margin-top: -80px;
+  font-family: 'Gotham';
+  position: absolute;
+}
+
+#email {
+  width: 312px;
+  height: 52px;
+  padding: 15px;
+  color: #8c5b2e;
+  border-radius: 5px;
+  border: none;
+
+  margin-left: 612px;
+  margin-top: -80px;
+  font-family: 'Gotham';
+  position: absolute;
+}
+
+.boxes-news input {
+  position: absolute;
+  width: 312px;
+  height: 52px;
+  padding: 15px;
+  color: #8c5b2e;
+  border-radius: 5px;
+  border: none;
+
+  margin-top: -50px;
+  margin-left: 693px;
+  font-family: 'Gotham Black';
+  font-size: 20px;
+}
+
+#email {
+  position: absolute;
+  width: 312px;
+  height: 52px;
+  padding: 15px;
+  color: #8c5b2e;
+  border-radius: 5px;
+  border: none;
+
+  margin-top: -50px;
+  margin-left: 1020px;
+  font-family: 'Gotham Black';
+  font-size: 20px;
+}
+
+#singup {
+  position: absolute;
+  width: 312px;
+  height: 52px;
+  border-radius: 5px;
+  font-family: 'Gotham';
+  font-weight: 700;
+  color: white;
+  border: none;
+
+  font-size: 20px;
+
+  margin-top: -50px;
+  margin-left: 1347px;
+  background-color: #8b5b2e;
+}
+
+#singup:hover {
+  background-color: #371e06;
+}
+
+.check {
+  margin-top: 10px;
+  margin-left: 650px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.newsletter h5 {
+  width: 582px;
+  margin-left: 717px;
+  margin-top: -17px;
+
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+
+  color: #ffffff;
+}
+
+.footer {
+  width: 100%;
+  height: 390px;
+
+  color: white;
+  text-align: center;
+
+  background: #8b5b2e;
+}
+
+.footer h1 {
+  padding-top: 45px;
+  font-size: 20px;
+  font-family: 'Gotham Black';
+}
+
+.social-media {
+  margin-top: 20px;
+}
+
+.infos {
+  width: 577px;
+
+  color: #ffffff;
+}
+
+.infos p {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+
+  padding-top: 16px;
+}
+
+#hotel {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: -940px;
+}
+
+#growth {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 810px;
+}

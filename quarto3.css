@@ -1,0 +1,526 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gotham';
+  font-weight: 500;
+}
+
+.menu {
+  position: absolute;
+  background: #8b5b2e;
+  width: 100%;
+  height: 90px;
+}
+
+.menu img {
+  width: 100px;
+  margin-top: 14px;
+  margin-left: 50px;
+}
+
+.menu-l {
+  font-family: 'Gotham';
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+
+  padding-left: 25px;
+  margin-top: -40px;
+  margin-left: 1220px;
+}
+
+.menu-l a {
+  color: white;
+  text-decoration: none;
+
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.menu-l a:hover {
+  color: #ffc630;
+}
+
+.btn {
+  position: absolute;
+  width: 104px;
+  height: 38px;
+  border: none;
+  padding: 8px 19px 8px 19px;
+  border-radius: 13px;
+  color: white;
+  background-color: #ffc630;
+
+  margin-top: -33px;
+  margin-left: 1750px;
+}
+
+.btn a {
+  font-size: 20px;
+  color: white;
+  font-family: 'Gotham Black';
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: #a67907;
+}
+
+.junior button {
+  width: 171px;
+  height: 45px;
+  margin-top: 155px;
+  background-color: #ffc630;
+
+  margin-left: 50px;
+  border: none;
+}
+
+.junior a {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #8b5b2e;
+  text-decoration: none;
+}
+
+.junior a:hover {
+  color: #ffc630;
+}
+
+.junior {
+  width: 100%;
+  height: 1100px;
+}
+
+.photo {
+  width: 744px;
+  height: 941px;
+  margin-left: 49px;
+}
+
+.photo h1 {
+  position: absolute;
+  width: 400px;
+  height: 43px;
+  left: 842px;
+  top: 200px;
+
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+
+  color: #8b5b2e;
+}
+
+.photo p {
+  position: absolute;
+  width: 850px;
+  height: 207px;
+  left: 842px;
+  top: 255px;
+
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #8b5b2e;
+}
+
+.photo h2 {
+  position: absolute;
+  width: 128px;
+  height: 30px;
+  left: 842px;
+  top: 512px;
+
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 30px;
+
+  color: #8b5b2e;
+}
+
+.wifi {
+  position: absolute;
+  top: 592px;
+  margin-left: 800px;
+}
+
+.dinner {
+  position: absolute;
+  top: 690px;
+  margin-left: 810px;
+}
+
+.laundry {
+  position: absolute;
+  top: 788px;
+  margin-left: 810px;
+}
+
+.bed {
+  position: absolute;
+  top: 886px;
+  margin-left: 800px;
+}
+
+.restroom {
+  position: absolute;
+  top: 1010px;
+  margin-left: 810px;
+}
+
+.coffe {
+  position: absolute;
+  top: 588px;
+  margin-left: 1271px;
+}
+
+.terrace {
+  position: absolute;
+  top: 690px;
+  margin-left: 1271px;
+}
+
+.cradle {
+  position: absolute;
+  top: 788px;
+  margin-left: 1271px;
+}
+
+.connection {
+  position: absolute;
+  top: 886px;
+  margin-left: 1245px;
+}
+
+#wifi {
+  position: absolute;
+  width: 44px;
+  height: 21px;
+  left: 929px;
+  top: 606px;
+
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+
+  color: #8b5b2e;
+}
+
+#dinner {
+  position: absolute;
+  width: 200px;
+  height: 21px;
+  left: 929px;
+  top: 704px;
+
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+
+  color: #8b5b2e;
+}
+
+#laundry {
+  position: absolute;
+  width: 120px;
+  height: 21px;
+  left: 929px;
+  top: 802px;
+
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+
+  color: #8b5b2e;
+}
+
+#bed {
+  position: absolute;
+  width: 210px;
+  height: 21px;
+  left: 929px;
+  top: 900px;
+
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+
+  color: #8b5b2e;
+}
+
+#restroom {
+  position: absolute;
+  width: 200px;
+  height: 21px;
+  left: 929px;
+  top: 1025px;
+
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+
+  color: #8b5b2e;
+}
+
+#coffe {
+  position: absolute;
+  width: 350px;
+  height: 21px;
+  left: 1390px;
+  top: 606px;
+
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+
+  color: #8b5b2e;
+}
+
+#terrace {
+  position: absolute;
+  width: 300px;
+  height: 21px;
+  left: 1390px;
+  top: 704px;
+
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+
+  color: #8b5b2e;
+}
+
+#cradle {
+  position: absolute;
+  width: 250px;
+  height: 21px;
+  left: 1390px;
+  top: 802px;
+
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+
+  color: #8b5b2e;
+}
+
+#connection {
+  position: absolute;
+  width: 350px;
+  height: 21px;
+  left: 1390px;
+  top: 900px;
+
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+
+  color: #8b5b2e;
+}
+
+.reserve {
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  left: -1px;
+  top: 1205px;
+
+  background: #ffc630;
+}
+
+.reserva h4 {
+  color: white;
+  font-size: 24px;
+  font-family: 'Gotham';
+  font-weight: 500;
+
+  padding-top: 24px;
+  padding-left: 18px;
+}
+
+.reserva h3 {
+  color: white;
+  font-size: 31px;
+  font-family: 'Gotham Black';
+  font-weight: 500;
+
+  padding-bottom: 24px;
+  padding-left: 18px;
+}
+
+#entrada {
+  text-transform: uppercase;
+
+  color: white;
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 181px;
+}
+
+#saida {
+  text-transform: uppercase;
+
+  color: white;
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 374px;
+}
+
+.boxr {
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 407px;
+  background: #ffc630;
+  width: 1133px;
+  height: 100px;
+  border-radius: 15px;
+}
+
+#dateinput {
+  width: 192px;
+  height: 52px;
+  padding: 15px;
+  color: #8c5b2e;
+  border-radius: 5px;
+  border: none;
+
+  margin-left: 181px;
+  margin-top: -80px;
+  font-family: 'Gotham';
+  position: absolute;
+}
+
+#dateinput-s {
+  width: 192px;
+  height: 52px;
+  padding: 15px;
+  color: #8c5b2e;
+  border-radius: 5px;
+  border: none;
+
+  margin-left: 374px;
+  margin-top: -80px;
+  font-family: 'Gotham';
+  position: absolute;
+}
+
+#adult {
+  width: 192px;
+  height: 52px;
+  padding: 15px;
+  color: #8c5b2e;
+  border-radius: 5px;
+  border: none;
+
+  margin-left: 567px;
+  margin-top: -80px;
+  font-family: 'Gotham';
+  position: absolute;
+}
+
+#child {
+  width: 192px;
+  height: 52px;
+  padding: 15px;
+  color: #8c5b2e;
+  border-radius: 5px;
+  border: none;
+
+  margin-left: 760px;
+  margin-top: -80px;
+  font-family: 'Gotham';
+  position: absolute;
+}
+
+#search {
+  position: absolute;
+  width: 151px;
+  height: 52px;
+  border-radius: 5px;
+  font-family: 'Gotham Black';
+  font-weight: 500;
+  border: none;
+
+  margin-top: -80px;
+  margin-left: 970px;
+  background-color: #8b5b2e;
+}
+
+#search a {
+  color: white;
+  text-decoration: none;
+}
+
+#search:hover {
+  background-color: #371e06;
+}
+
+.footer {
+  width: 100%;
+  height: 390px;
+
+  color: white;
+  text-align: center;
+
+  background: #8b5b2e;
+}
+
+.footer h1 {
+  padding-top: 45px;
+  font-size: 20px;
+  font-family: 'Gotham Black';
+}
+
+.social-media {
+  margin-top: 20px;
+}
+
+.infos {
+  width: 577px;
+
+  color: #ffffff;
+}
+
+.infos p {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+
+  padding-top: 16px;
+}
+
+#hotel {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: -940px;
+}
+
+#growth {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 810px;
+}
